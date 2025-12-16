@@ -28,8 +28,8 @@ const songBook = new Map([
   ["sjsjdsds", { title: "Bolero of Fire", file: "bolero.mp3" }],
   ["jsddd", { title: "Serenade of Water", file: "serenade.mp3" }],
   ["addjads", { title: "Nocturne of Shadow", file: "nocturne.mp3" }],
-  ["jsjdsj", { title: "Prelude of Light", file: "prelude.mp3" }],
-  ["wdwdaw", { title: "Requiem of Spirit", file: "requiem.mp3" }],
+  ["wdwdaw", { title: "Prelude of Light", file: "prelude.mp3" }],
+  ["jsjdsj", { title: "Requiem of Spirit", file: "requiem.mp3" }],
 ]);
 
 const noteSounds = {
@@ -229,3 +229,4 @@ function loadSheet() {
 }
 
 loadSheet();
+
