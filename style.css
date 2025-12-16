@@ -1,0 +1,92 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+
+}
+
+.song-book {
+  text-align: center;
+  background-color: black;
+  height: 100vh;
+  overflow-y: auto;
+}
+.song-book p{
+  color: white;
+}
+
+.song-book h1{
+  color: white;
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track{
+  background-color: black;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #888;
+  border-radius: 15px;
+}
+
+
+.content {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-rows: 200px 80px 1fr 1fr;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.content h1{
+  font-size: 45px;
+}
+
+.score {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  justify-content: flex-start;
+  align-items:start;
+  place-items: center;
+  position: relative;
+  max-width: 600px;
+  z-index: 2;
+  padding: 0 10%;
+  
+}
+
+.score-img {
+  position: absolute;
+  image-rendering: pixelated;
+  width: 100%;
+  z-index: 1;
+  
+}
+
+.note {
+  position: relative;
+  z-index: 3;
+  image-rendering: pixelated;
+  width: 40px;
+  height: 40px;
+}
+
+
+.song-name{
+  display: flex;
+  justify-content: center;
+}
+
+.instructions{
+  display: flex;
+  justify-content: center;
+  
+}
